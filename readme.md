@@ -20,7 +20,7 @@ You’ll need these mods installed via Thunderstore:
 - **High Quota Fixes** by Chboo1  
   https://thunderstore.io/c/lethal-company/p/Chboo1/High_Quota_Fixes/
 ### 2. Set Up Google Sheets API
-Follow this video to set up your Google API credentials:  
+Follow this video to set up your Google API service account:  
 https://www.youtube.com/watch?v=zCEJurLGFRk
 
 Steps:
@@ -43,7 +43,7 @@ By default, the VLog directory it watches is:
 ```
 C:/Users/<YourUserName>/AppData/LocalLow/ZeekerssRBLX/Lethal Company/VLogs
 ```
-This is automatically handled in the script, so you don’t need to change it unless your game is installed in a non-standard location.
+This is automatically handled in the program, so you don’t need to change it unless your game is installed in a non-standard location.
 
 ## How It Works
 
