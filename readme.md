@@ -1,4 +1,5 @@
 # GuodaBees
+**Note: Loadstone has not yet updated and is desynced for v70+**
 ## What It Does
 - Monitors your VLog files (from the modded game).
 - Detects the most recent bee seed and how many times it has appeared.
