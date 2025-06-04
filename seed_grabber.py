@@ -10,19 +10,19 @@ def extract_latest_seed_and_count(filepath):
     target_prefix = "Log: Setting bee random seed: "
     latest_seed = None
 
-    # First pass: find the latest seed
+    # Find the latest seed for beea at the bottom of the file
     with open(filepath, "r") as file:
         for line in file:
             if line.startswith(target_prefix):
                 seed_str = line[len(target_prefix):].strip()
                 latest_seed = seed_str
 
-    # If no seed found, return None or 0
+    # If no seed found, return None, 0
     if latest_seed is None:
         return None, 0
 
     count = 0
-    # Second pass: count lines that start with prefix and end with latest seed
+    # Count the lines containing the seed bees use
     with open(filepath, "r") as file:
         for line in file:
             line = line.strip()
