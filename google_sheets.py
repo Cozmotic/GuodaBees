@@ -16,7 +16,7 @@ SPREADSHEET_ID = '131JmTANkfvGDPAzufmVrGQLgAHXUl8_vx26qhszFoS0' # REPLACE WITH Y
 RANGE = "'Bee Calculator'!B3:C3"
 
 def update_sheet(var_1, var_2):
-    # Prepare request body
+    # The data to upload to google sheets
     body = {
         'values': [[var_1, var_2]]
     }
