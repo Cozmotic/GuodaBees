@@ -1,3 +1,5 @@
+## THIS PROGRAM IS NOT ALLOWED FOR RUNS IN HIGH QUOTA HQ
+
 # GuodaBees
 **Note: Loadstone has not yet updated and is desynced for v70+**
 ## What It Does
